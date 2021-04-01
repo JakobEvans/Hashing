@@ -1,0 +1,2 @@
+# Hashing
+Various hashing implementations.
