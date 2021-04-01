@@ -1,0 +1,14 @@
+Heap uses arrays....
+
+*not allowed to use any pointers*
+
+Binary heap achieves this with no pointers... (basically an array)
+
+A binary heap with k keys are stored in indices 1 to k *DOES NOT use index 0*
+(normal array 0 -> (k-1) )
+
+Such an array A[1 : k]
+called a min-heap if
+A[i] <= A[2 * i]
+
+A[i] <= A[(2*i) + 1]
